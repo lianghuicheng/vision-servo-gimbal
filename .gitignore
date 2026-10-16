@@ -1,0 +1,72 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# 程序运行产物
+*.log
+*.tmp
+*.bak
+测试截图/
+录制视频/
+
+# ---------- Keil MDK / ARM 编译产物 ----------
+Objects/
+Listings/
+DebugConfig/
+RTE/
+*.o
+*.d
+*.crf
+*.axf
+*.elf
+*.hex
+*.bin
+*.map
+*.htm
+*.lnp
+*.iex
+*.sct
+*.dep
+*.build_log.htm
+*.scvd
+*.uvguix.*
+*.uvoptx.bak
+JLinkLog.txt
+JLinkSettings.ini
+
+# 但保留工程文件本身
+!*.uvprojx
+!*.uvoptx
+
+# ---------- VS Code ----------
+.vscode/*
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
+!.vscode/extensions.json
+.cortex-debug/
+
+# ---------- 系统 ----------
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# ---------- 大文件（不要进仓库）----------
+*.iso
+*.exe
+*.msi
+*.7z
+*.rar
+*.zip
+*.psd
+*.mp4
+*.avi
+*.mov
